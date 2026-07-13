@@ -1,1 +1,177 @@
-.
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uganda After Museveni — A Pentadic Roundtable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"DM Serif Display"', 'Georgia', 'serif'],
+          mono: ['"DM Mono"', 'monospace'],
+          sans: ['"DM Sans"', 'sans-serif'],
+        },
+        colors: {
+          paper: '#F3EAD9',
+          paperdark: '#171009',
+          ink: '#1A1209',
+          inklight: '#EDE2C9',
+          amber: '#C8821A',
+          rust: '#8B3A1C',
+          dim7: '#2B2013',
+          dust: '#D8CBB0',
+          muted: '#7A6F5E',
+          v1: '#3E6B8A',
+          v2: '#7A5C8E',
+          v3: '#A8562E',
+        }
+      }
+    }
+  }
+</script>
+</head>
+<body class="bg-paper dark:bg-paperdark text-ink dark:text-inklight font-sans transition-colors duration-300 pb-20">
+
+<div class="max-w-3xl mx-auto px-6 pt-10">
+
+  <!-- Spectrum strip -->
+  <div class="h-1.5 w-full flex mb-8 rounded-full overflow-hidden">
+    <div class="flex-1 bg-red-500"></div>
+    <div class="flex-1 bg-orange-500"></div>
+    <div class="flex-1 bg-yellow-400"></div>
+    <div class="flex-1 bg-green-500"></div>
+    <div class="flex-1 bg-blue-500"></div>
+    <div class="flex-1 bg-indigo-500"></div>
+    <div class="flex-1 bg-violet-500"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="text-center border-b-2 border-ink dark:border-inklight pb-8 mb-8 relative">
+    <button onclick="document.documentElement.classList.toggle('dark')"
+      class="absolute right-0 top-0 text-xs font-mono uppercase tracking-widest border border-muted px-3 py-1 rounded-full hover:bg-ink hover:text-paper dark:hover:bg-inklight dark:hover:text-paperdark transition-colors">
+      ☾ / ☼
+    </button>
+    <p class="font-mono text-xs tracking-[0.2em] uppercase text-muted mb-3">Ukubona LLC · Pentadic Roundtable · July 2026</p>
+    <h1 class="font-display text-4xl md:text-5xl">Uganda After Museveni</h1>
+    <p class="font-mono text-xs tracking-widest uppercase text-amber mt-3">A Pentadic &amp; Invariant Reading of Titeca's Article</p>
+  </header>
+
+  <!-- Epigraph -->
+  <blockquote class="italic text-center text-lg text-dim7 dark:text-dust border-l-4 border-amber pl-6 my-10 font-display">
+    "The regime is holding a rootless V7♭9. It desperately wants one resolution. The tensor refuses. The cassava stem stores."
+    <footer class="font-mono not-italic text-xs text-muted mt-3 tracking-widest">— Okubala si kulaba</footer>
+  </blockquote>
+
+  <!-- Signature element: the four-exit chord wheel -->
+  <section class="my-12">
+    <span class="font-mono text-xs text-amber tracking-[0.2em] uppercase block mb-4 text-center">Signature · The Suspended Chord</span>
+    <svg viewBox="0 0 600 460" class="w-full h-auto">
+      <circle cx="300" cy="220" r="150" fill="none" stroke="currentColor" stroke-width="1" class="text-dust dark:text-muted" stroke-dasharray="2 6"/>
+      <circle cx="300" cy="220" r="46" fill="none" stroke="currentColor" stroke-width="2" class="text-amber"/>
+      <text x="300" y="215" text-anchor="middle" class="font-display text-2xl fill-current text-ink dark:text-inklight">dim⁷</text>
+      <text x="300" y="236" text-anchor="middle" class="font-mono text-[10px] fill-current text-muted uppercase tracking-widest">suspended</text>
+
+      <!-- four spokes -->
+      <line x1="300" y1="220" x2="300" y2="70"  stroke-width="1.5" class="stroke-v3"/>
+      <line x1="300" y1="220" x2="450" y2="220" stroke-width="1.5" class="stroke-v1"/>
+      <line x1="300" y1="220" x2="300" y2="370" stroke-width="1.5" class="stroke-v2"/>
+      <line x1="300" y1="220" x2="150" y2="220" stroke-width="1.5" class="stroke-amber"/>
+
+      <circle cx="300" cy="70"  r="6" class="fill-v3"/>
+      <circle cx="450" cy="220" r="6" class="fill-v1"/>
+      <circle cx="300" cy="370" r="6" class="fill-v2"/>
+      <circle cx="150" cy="220" r="6" class="fill-amber"/>
+
+      <text x="300" y="50" text-anchor="middle" class="font-mono text-[11px] fill-current text-v3 uppercase tracking-wide">Muhoozi Tonic</text>
+      <text x="300" y="63" text-anchor="middle" class="font-mono text-[9px] fill-current text-muted">dynastic I⁷ resolution</text>
+
+      <text x="470" y="216" text-anchor="start" class="font-mono text-[11px] fill-current text-v1 uppercase tracking-wide">Somalia Exit</text>
+      <text x="470" y="229" text-anchor="start" class="font-mono text-[9px] fill-current text-muted">legible, ethnic rupture</text>
+
+      <text x="300" y="398" text-anchor="middle" class="font-mono text-[11px] fill-current text-v2 uppercase tracking-wide">Sudan Exit</text>
+      <text x="300" y="411" text-anchor="middle" class="font-mono text-[9px] fill-current text-muted">SFC vs. historicals clash</text>
+
+      <text x="130" y="216" text-anchor="end" class="font-mono text-[11px] fill-current text-amber uppercase tracking-wide">Cassava Storage</text>
+      <text x="130" y="229" text-anchor="end" class="font-mono text-[9px] fill-current text-muted">continued suspension</text>
+    </svg>
+    <p class="text-center text-sm text-muted italic mt-2">A rootless dim⁷ resolves in four directions at once. Which exit the chord takes is the real succession question — not whether the 2026 ballot is free.</p>
+  </section>
+
+  <!-- Pentad grid -->
+  <section class="my-14">
+    <span class="font-mono text-xs text-amber tracking-[0.2em] uppercase block mb-4">I · Tensor Field</span>
+    <p class="leading-relaxed">Titeca's article counts elite maneuvers, tweets, raids, and ethnic arithmetic — the surface noise of the state. What it only glimpses is the deep, uncompressed field beneath: Baganda frustration, ghetto youth, village rhythm, land memory, grandmother knowledge, cassava logic. Museveni once sampled that field directly. Gatekeepers and fatigue have since severed the connection, but the field itself is undiminished — pre-political, rhizomatic, still there to be read.</p>
+
+    <div class="grid md:grid-cols-2 gap-5 mt-8">
+      <div class="border border-dust dark:border-muted/40 p-6 bg-white/40 dark:bg-white/5 rounded-sm">
+        <h3 class="font-display text-xl text-rust mb-2">II · Matrix (Reflex)</h3>
+        <p class="text-sm leading-relaxed">Personalization and the shadow state have shrunk to a family-and-Bahima core. Ministries stall while decisions wait on access to a shrinking circle. NRM has become loyalty theater. Development partners keep applying a stability prior to a system that no longer earns it — classic late-regime matrix sclerosis.</p>
+      </div>
+      <div class="border border-dust dark:border-muted/40 p-6 bg-white/40 dark:bg-white/5 rounded-sm">
+        <h3 class="font-display text-xl text-rust mb-2">III · Vector / Gradient</h3>
+        <p class="text-sm leading-relaxed">Museveni's own descent has slowed with age. Muhoozi is the noisy attempted update: rapid promotions, an SFC parallel command, provocative rhetoric. This is not gradient descent toward lower national loss — it's dynastic amplification that raises ethnic and factional volatility. The optimizer has stalled.</p>
+      </div>
+      <div class="border border-dust dark:border-muted/40 p-6 bg-white/40 dark:bg-white/5 rounded-sm">
+        <h3 class="font-display text-xl text-rust mb-2">IV · Eigenmode (Regulation)</h3>
+        <p class="text-sm leading-relaxed">The regime's hardened invariants — personalization, militarization, ethnic concentration — are brittle, not robust. SFC is the new praetorian eigenmode, but it is internally contested by the historicals and the uniformed command. The Jacobian is dangerously concentrated: small perturbations, a tweet, a raid, propagate into large state movements.</p>
+      </div>
+      <div class="border border-dust dark:border-muted/40 p-6 bg-white/40 dark:bg-white/5 rounded-sm">
+        <h3 class="font-display text-xl text-rust mb-2">V · Scalar (Decision / Event)</h3>
+        <p class="text-sm leading-relaxed">The 2026 election functions as security theater; the real succession contest is informal, familial, and SFC-mediated. The constitution supplies the formal cadence, but power moves dynastically underneath it. The chord stays unresolved — several exits remain simultaneously open.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roundtable passes -->
+  <section class="my-16">
+    <span class="font-mono text-xs text-amber tracking-[0.2em] uppercase block mb-6">Roundtable · Three Passes on the Same Text</span>
+
+    <!-- Pass I -->
+    <article class="mb-12 border-l-4 border-v3 pl-6">
+      <h3 class="font-display text-2xl text-v3 mb-1">Pass I — Museveni as a Failed Identity Invariant</h3>
+      <p class="font-mono text-[11px] text-muted uppercase tracking-widest mb-4">reading via ∂State/∂Leader</p>
+      <p class="text-sm leading-relaxed mb-3">A biological organism outlives any single cell; an institution outlives its founder. Uganda's system did the opposite — it optimized for leader invariance rather than institutional invariance, with Museveni historically standing as the final decision node on matters down to minor disputes. The result is a Jacobian concentrated in one person: <span class="italic">|∂State/∂Leader|</span> grows dangerously large, so aging and succession uncertainty produce outsized state movement.</p>
+      <p class="text-sm leading-relaxed mb-3">Power didn't collapse when the formal graph degraded — it rerouted into an informal one: family, security circles, personal access, patronage. The topology stayed connected; only the routing protocol changed, the way ATL passengers keep moving even after the published map stops matching the tracks.</p>
+      <p class="text-sm leading-relaxed">Muhoozi's rise is the deepest test of this: an attractor cannot simply be copied. A basin of stability depends on the mass that carved it. Remove that mass and the potential well itself changes shape — which is also this pass's weak point, since it risks describing a deliberate political strategy (four decades of narrowing the big tent into personalized loyalty) as if it were an engineering accident.</p>
+    </article>
+
+    <!-- Pass II -->
+    <article class="mb-12 border-l-4 border-v1 pl-6">
+      <h3 class="font-display text-2xl text-v1 mb-1">Pass II — Through a Glass, Darkly</h3>
+      <p class="font-mono text-[11px] text-muted uppercase tracking-widest mb-4">reading via sensor fusion</p>
+      <p class="text-sm leading-relaxed mb-3">A glass is not a window. A window claims direct access to reality; a glass admits the access is filtered. That's the condition of a retina, a clinician, a government, a model. Uganda doesn't receive "the state" — it receives reports, rumors, elite narratives, military intelligence, all pre-compressed by whoever controls the glass.</p>
+      <p class="text-sm leading-relaxed mb-3">Titeca's Uganda replaced <span class="italic">state → observation → correction</span> with <span class="italic">leader → interpretation → action</span>. The glass became a person. A robust nervous system spreads sensing across many channels — vision, proprioception, pain, balance. A brittle one collapses to a single nerve ending, and calls that efficiency.</p>
+      <p class="text-sm leading-relaxed">The uncomfortable extension: any observing system, Ukubona included, risks becoming the next glass. The fix isn't a better mirror; it's an observer that keeps itself observable — residuals, uncertainty, a twin for the twin. Otherwise the mirror becomes a throne.</p>
+    </article>
+
+    <!-- Pass III -->
+    <article class="mb-4 border-l-4 border-v2 pl-6">
+      <h3 class="font-display text-2xl text-v2 mb-1">Pass III — Correction: It's a Bifurcation, Not a Decay</h3>
+      <p class="font-mono text-[11px] text-muted uppercase tracking-widest mb-4">reading via eigengap</p>
+      <p class="text-sm leading-relaxed mb-3">The strongest single data point in the whole article is the State House's August 2025 plea, in essence, not to pay for access to the president — a literal admission that the gatekeeping layer has turned extractive. That's the glass charging admission to look through itself.</p>
+      <p class="text-sm leading-relaxed mb-3">But calling the overall situation "entropy accumulation" flattens something sharper: Titeca describes two opposite-signed processes at once, not one decaying one. The old wide Jacobian — the big-tent co-optation of Baganda elites and a broad NRM patronage network — is genuinely diffusing. A new narrow Jacobian, Muhoozi plus the SFC, is simultaneously concentrating, with its own chain of command running around the defense ministry and the regular army's own leadership.</p>
+      <p class="text-sm leading-relaxed mb-3">That's an eigengap question, not a decay curve: is there one clean dominant mode, or two comparably sized competing ones with no spectral separation? The 2022 standoff, where the army's deputy commander put forces on alert and Muhoozi told his own troops to disregard the order, each side accusing the other of plotting a coup, is a direct empirical readout of a near-degenerate gap. A large gap predicts an ugly but legible succession; a small one predicts exactly the factional violence commentators have floated as Somalia- or Sudan-style scenarios.</p>
+      <p class="text-sm leading-relaxed">The "single broken sensor" framing from Pass II is also too clean. The real shadow state is multipolar — a rival shadow cabinet, calendar gatekeeping, trade policy, education, the SFC, each held by a different member of an unusually prominent first family, each running a separate channel. A system with one blind eye at least knows it's half-blind. Five eyes that each report different, self-interested things and never reconcile don't know they're blind at all — there's no longer a single signal to residual-check against, only competing claims to be the ground truth.</p>
+    </article>
+  </section>
+
+  <!-- Final synthesis -->
+  <section class="bg-dim7 text-inklight font-mono text-sm leading-relaxed p-8 md:p-10 my-14 border-2 border-ink dark:border-inklight rounded-sm">
+    <strong class="font-sans text-base tracking-wide">Core Ukubona Diagnosis</strong>
+    <p class="mt-4">Titeca is precise at matrix-level counting: fragility, personalization strain, militarization, ethnic tension all present and correctly weighted. What the article under-witnesses is depth beneath the matrix — the tensor field the regime has stopped sampling, and the eigengap between its two live succession modes.</p>
+    <p class="mt-4">This is not a system quietly decaying toward one outcome. It is a rootless chord holding two simultaneous, opposite-signed processes — one diffusing, one concentrating — with several eyes reporting different truths and no mechanism forcing them to reconcile. What gets stored in the cassava stem while the chord refuses to resolve will matter more than the theater around any single election.</p>
+  </section>
+
+  <footer class="text-center font-mono text-[11px] text-muted tracking-widest uppercase mt-16">
+    Okubala si kulaba · dim⁷ holds · cassava stores · July 2026
+  </footer>
+
+</div>
+</body>
+</html>
